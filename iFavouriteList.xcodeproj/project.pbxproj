@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4CE9D32597357255B0EE7AD8 /* Pods_iFavouriteList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 082DF956DBC28E59C012550E /* Pods_iFavouriteList.framework */; };
+		B0F750AA50C5A4C1299C9513 /* Pods_iFavouriteListTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDA8BBC4569EF3F245FE858 /* Pods_iFavouriteListTests.framework */; };
+		B8D9B4F84567B48699098A97 /* Pods_iFavouriteList_iFavouriteListUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25BC11837D6E122A02BB635 /* Pods_iFavouriteList_iFavouriteListUITests.framework */; };
 		D3CFD30725BAE322008E2EC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CFD30625BAE322008E2EC9 /* AppDelegate.swift */; };
 		D3CFD30925BAE322008E2EC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CFD30825BAE322008E2EC9 /* SceneDelegate.swift */; };
 		D3CFD30B25BAE322008E2EC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CFD30A25BAE322008E2EC9 /* ViewController.swift */; };
@@ -35,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		082DF956DBC28E59C012550E /* Pods_iFavouriteList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iFavouriteList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08D6076168D51DCFB5839391 /* Pods-iFavouriteList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iFavouriteList.release.xcconfig"; path = "Target Support Files/Pods-iFavouriteList/Pods-iFavouriteList.release.xcconfig"; sourceTree = "<group>"; };
+		0E37DD685615EFCE6283CD9F /* Pods-iFavouriteList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iFavouriteList.debug.xcconfig"; path = "Target Support Files/Pods-iFavouriteList/Pods-iFavouriteList.debug.xcconfig"; sourceTree = "<group>"; };
+		61AD83563F3C873491483EF6 /* Pods-iFavouriteListTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iFavouriteListTests.debug.xcconfig"; path = "Target Support Files/Pods-iFavouriteListTests/Pods-iFavouriteListTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D33D112513EC755FE866C0F /* Pods-iFavouriteListTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iFavouriteListTests.release.xcconfig"; path = "Target Support Files/Pods-iFavouriteListTests/Pods-iFavouriteListTests.release.xcconfig"; sourceTree = "<group>"; };
+		B25BC11837D6E122A02BB635 /* Pods_iFavouriteList_iFavouriteListUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iFavouriteList_iFavouriteListUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDA8BBC4569EF3F245FE858 /* Pods_iFavouriteListTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iFavouriteListTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3CFD30325BAE322008E2EC9 /* iFavouriteList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFavouriteList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3CFD30625BAE322008E2EC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3CFD30825BAE322008E2EC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,8 @@
 		D3CFD32425BAE323008E2EC9 /* iFavouriteListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iFavouriteListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3CFD32825BAE323008E2EC9 /* iFavouriteListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFavouriteListUITests.swift; sourceTree = "<group>"; };
 		D3CFD32A25BAE323008E2EC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D912D171C120432D2D967821 /* Pods-iFavouriteList-iFavouriteListUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iFavouriteList-iFavouriteListUITests.debug.xcconfig"; path = "Target Support Files/Pods-iFavouriteList-iFavouriteListUITests/Pods-iFavouriteList-iFavouriteListUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D956A8C898EF65E40A432288 /* Pods-iFavouriteList-iFavouriteListUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iFavouriteList-iFavouriteListUITests.release.xcconfig"; path = "Target Support Files/Pods-iFavouriteList-iFavouriteListUITests/Pods-iFavouriteList-iFavouriteListUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CE9D32597357255B0EE7AD8 /* Pods_iFavouriteList.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0F750AA50C5A4C1299C9513 /* Pods_iFavouriteListTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8D9B4F84567B48699098A97 /* Pods_iFavouriteList_iFavouriteListUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B623A2F8EC106D9D23C58DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				082DF956DBC28E59C012550E /* Pods_iFavouriteList.framework */,
+				B25BC11837D6E122A02BB635 /* Pods_iFavouriteList_iFavouriteListUITests.framework */,
+				CEDA8BBC4569EF3F245FE858 /* Pods_iFavouriteListTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F1E7C152A239AF2D1852740 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E37DD685615EFCE6283CD9F /* Pods-iFavouriteList.debug.xcconfig */,
+				08D6076168D51DCFB5839391 /* Pods-iFavouriteList.release.xcconfig */,
+				D912D171C120432D2D967821 /* Pods-iFavouriteList-iFavouriteListUITests.debug.xcconfig */,
+				D956A8C898EF65E40A432288 /* Pods-iFavouriteList-iFavouriteListUITests.release.xcconfig */,
+				61AD83563F3C873491483EF6 /* Pods-iFavouriteListTests.debug.xcconfig */,
+				6D33D112513EC755FE866C0F /* Pods-iFavouriteListTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D3CFD2FA25BAE322008E2EC9 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				D3CFD31C25BAE323008E2EC9 /* iFavouriteListTests */,
 				D3CFD32725BAE323008E2EC9 /* iFavouriteListUITests */,
 				D3CFD30425BAE322008E2EC9 /* Products */,
+				9F1E7C152A239AF2D1852740 /* Pods */,
+				3B623A2F8EC106D9D23C58DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +140,12 @@
 		D3CFD30525BAE322008E2EC9 /* iFavouriteList */ = {
 			isa = PBXGroup;
 			children = (
+				D3CFD33B25BAE364008E2EC9 /* Models */,
+				D3CFD33A25BAE35B008E2EC9 /* Views */,
+				D3CFD33925BAE34F008E2EC9 /* Controllers */,
 				D3CFD30625BAE322008E2EC9 /* AppDelegate.swift */,
 				D3CFD30825BAE322008E2EC9 /* SceneDelegate.swift */,
-				D3CFD30A25BAE322008E2EC9 /* ViewController.swift */,
-				D3CFD30C25BAE322008E2EC9 /* Main.storyboard */,
 				D3CFD30F25BAE323008E2EC9 /* Assets.xcassets */,
-				D3CFD31125BAE323008E2EC9 /* LaunchScreen.storyboard */,
 				D3CFD31425BAE323008E2EC9 /* Info.plist */,
 			);
 			path = iFavouriteList;
@@ -128,6 +169,30 @@
 			path = iFavouriteListUITests;
 			sourceTree = "<group>";
 		};
+		D3CFD33925BAE34F008E2EC9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D3CFD30A25BAE322008E2EC9 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D3CFD33A25BAE35B008E2EC9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D3CFD31125BAE323008E2EC9 /* LaunchScreen.storyboard */,
+				D3CFD30C25BAE322008E2EC9 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D3CFD33B25BAE364008E2EC9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +200,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3CFD32D25BAE323008E2EC9 /* Build configuration list for PBXNativeTarget "iFavouriteList" */;
 			buildPhases = (
+				E756192F71C26B4B6CA858BE /* [CP] Check Pods Manifest.lock */,
 				D3CFD2FF25BAE322008E2EC9 /* Sources */,
 				D3CFD30025BAE322008E2EC9 /* Frameworks */,
 				D3CFD30125BAE322008E2EC9 /* Resources */,
+				7BCDD497A45E47320A8DB86D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3CFD33025BAE323008E2EC9 /* Build configuration list for PBXNativeTarget "iFavouriteListTests" */;
 			buildPhases = (
+				C255103C637D88F79DF52A04 /* [CP] Check Pods Manifest.lock */,
 				D3CFD31525BAE323008E2EC9 /* Sources */,
 				D3CFD31625BAE323008E2EC9 /* Frameworks */,
 				D3CFD31725BAE323008E2EC9 /* Resources */,
@@ -170,9 +238,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3CFD33325BAE323008E2EC9 /* Build configuration list for PBXNativeTarget "iFavouriteListUITests" */;
 			buildPhases = (
+				814E185DCC029CB1E3AABB8A /* [CP] Check Pods Manifest.lock */,
 				D3CFD32025BAE323008E2EC9 /* Sources */,
 				D3CFD32125BAE323008E2EC9 /* Frameworks */,
 				D3CFD32225BAE323008E2EC9 /* Resources */,
+				A9B286B74EDC01984CAE47ED /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +322,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7BCDD497A45E47320A8DB86D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iFavouriteList/Pods-iFavouriteList-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iFavouriteList/Pods-iFavouriteList-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iFavouriteList/Pods-iFavouriteList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		814E185DCC029CB1E3AABB8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iFavouriteList-iFavouriteListUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9B286B74EDC01984CAE47ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iFavouriteList-iFavouriteListUITests/Pods-iFavouriteList-iFavouriteListUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iFavouriteList-iFavouriteListUITests/Pods-iFavouriteList-iFavouriteListUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iFavouriteList-iFavouriteListUITests/Pods-iFavouriteList-iFavouriteListUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C255103C637D88F79DF52A04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iFavouriteListTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E756192F71C26B4B6CA858BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iFavouriteList-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D3CFD2FF25BAE322008E2EC9 /* Sources */ = {
@@ -366,7 +539,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +594,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -433,12 +606,14 @@
 		};
 		D3CFD32E25BAE323008E2EC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E37DD685615EFCE6283CD9F /* Pods-iFavouriteList.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8N6548NG99;
 				INFOPLIST_FILE = iFavouriteList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,12 +627,14 @@
 		};
 		D3CFD32F25BAE323008E2EC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08D6076168D51DCFB5839391 /* Pods-iFavouriteList.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8N6548NG99;
 				INFOPLIST_FILE = iFavouriteList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,6 +648,7 @@
 		};
 		D3CFD33125BAE323008E2EC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61AD83563F3C873491483EF6 /* Pods-iFavouriteListTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +671,7 @@
 		};
 		D3CFD33225BAE323008E2EC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D33D112513EC755FE866C0F /* Pods-iFavouriteListTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +694,7 @@
 		};
 		D3CFD33425BAE323008E2EC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D912D171C120432D2D967821 /* Pods-iFavouriteList-iFavouriteListUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +715,7 @@
 		};
 		D3CFD33525BAE323008E2EC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D956A8C898EF65E40A432288 /* Pods-iFavouriteList-iFavouriteListUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
